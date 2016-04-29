@@ -16,14 +16,20 @@ public class Room_Base : MonoBehaviour {
         public void DefineDirectionEast()
         {
             //Lock porte de droite et du bas
+            _Direction = Direction.East;
+            SetDirection(_Direction);
         }
         public void DefineDirectionSouth()
         {
             //Lock porte du bas
+            _Direction = Direction.South;
+            SetDirection(_Direction);
         }
         public void DefineDirectionWest()
         {
             //Lock porte de gauche et du bas
+            _Direction = Direction.West;
+            SetDirection(_Direction);
         }
 
     //SET

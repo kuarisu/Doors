@@ -71,6 +71,7 @@
     <Compile Include="Assets\Script\Character\Character_Movement.cs" />
     <Compile Include="Assets\Script\Manager\Manager_RoomList.cs" />
     <Compile Include="Assets\Script\Manager\Manager_RoomSpawn.cs" />
+    <Compile Include="Assets\Script\Manager\Manager_Start.cs" />
     <Compile Include="Assets\Script\Room\Room_Base.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
