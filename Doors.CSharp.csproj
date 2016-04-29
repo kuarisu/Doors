@@ -67,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\Camera\Camera_LookAt.cs" />
+    <Compile Include="Assets\Script\Character\Character_Direction.cs" />
     <Compile Include="Assets\Script\Character\Character_Movement.cs" />
     <Compile Include="Assets\Script\Manager\Manager_RoomList.cs" />
     <Compile Include="Assets\Script\Manager\Manager_RoomSpawn.cs" />
