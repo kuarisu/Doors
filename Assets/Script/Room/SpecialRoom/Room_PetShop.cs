@@ -3,12 +3,15 @@ using System.Collections;
 
 public class Room_PetShop : Room_Base
 {
+    public GameObject VeterinaryRoom;
 
-    public override bool IsSpawnable
+    private void Awake()
     {
-        set
-        {
-            base.IsSpawnable = true;
-        }
+        IsSpawnable = true;
+    }
+
+    private void Start ()
+    {
+        
     }
 }

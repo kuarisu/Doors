@@ -3,12 +3,8 @@ using System.Collections;
 
 public class Room_Office : Room_Base
 {
-
-    public override bool IsSpawnable
+    private void Awake()
     {
-        set
-        {
-            base.IsSpawnable = true;
-        }
+        IsSpawnable = true;
     }
 }

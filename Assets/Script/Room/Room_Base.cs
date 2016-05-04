@@ -11,17 +11,9 @@ public class Room_Base : MonoBehaviour {
     public virtual bool IsSpawnable
     {
         get;
-
+        protected set;
     }
         
-
-    ////GET
-    //public Direction GetDirection()
-    //{
-    //    return Manager_RoomSpawn.instance.m_Direction;
-    //}
-
-
     public void DefineDirectionEast()
     {
         //Lock porte de droite et du bas
@@ -42,11 +34,20 @@ public class Room_Base : MonoBehaviour {
         SetDirection(_Direction);
     }
 
+    #region GetExample
+    ////GET
+    //public Direction GetDirection()
+    //{
+    //    return Manager_RoomSpawn.instance.m_Direction;
+    //}
+    #endregion
+
     //SET
     public void SetDirection(Direction _Direction)
     {
         Manager_RoomSpawn.instance.m_Direction = _Direction;
     }
+
 
 }
 

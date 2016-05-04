@@ -6,7 +6,6 @@ public class Manager_RoomList : MonoBehaviour {
 
     public List<GameObject> PossibleRooms = new List<GameObject>();
     private GameObject Room;
-    private bool m_Spawnable;
 
     public void RandomPickRoom()
     {
@@ -22,7 +21,7 @@ public class Manager_RoomList : MonoBehaviour {
     //GET
     public bool GetSpawnable()
     {
-        return Room.GetComponent<Room_Base>().m_IsSpawnable;// = m_Spawnable;  
+        return Room.GetComponent<Room_Base>().IsSpawnable;
     }
 
 }
